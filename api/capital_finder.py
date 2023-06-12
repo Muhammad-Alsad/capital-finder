@@ -46,3 +46,6 @@ def get_country_by_capital(capital):
     countries_data = json.loads(data)
     country = countries_data[0]["name"]["official"]
     return country
+
+# https://capital-finder-indol.vercel.app/api/capital_finder?capital=santiago
+# https://capital-finder-indol.vercel.app/api/capital_finder?capital=amman
